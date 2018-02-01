@@ -126,8 +126,8 @@ public class MainActivity extends AppCompatActivity {
         new MovieAsync().execute();
 
         // ****************APİSİZ HALİ***********************************
-        final MoviewAdapter movieAdapter = new MoviewAdapter(getApplicationContext(), 0, createDummyMovieData());
-        movieList.setAdapter(movieAdapter);
+       // final MoviewAdapter movieAdapter = new MoviewAdapter(getApplicationContext(), 0, createDummyMovieData());
+        //movieList.setAdapter(movieAdapter);
 
 
         movieList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
